@@ -38,7 +38,13 @@ def take_user_input():
     elif "open page" in query:
       speak("Opening your web page")
       webbrowser.open("www.codegnan.com")
-    elif "Tata" in query:
+    elif "open google" in query:
+      speak("Opening your google page")
+      webbrowser.open("www.google.com")
+    elif "open linkedin" in query:
+      speak("Opening your linkedin profile")
+      webbrowser.open("www.linkedin.com/in/pydipalli-ganesh-06a776229/")
+    elif "exit" in query:
       speak("Bye Bye, Take Care !")
       exit()
     else:
